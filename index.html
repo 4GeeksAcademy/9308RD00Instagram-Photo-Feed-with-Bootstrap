@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<title>Bootstrap demo</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex ">
+            <div class="d-flex justify-content-start col-8">
+                <a class="navbar-brand" href="#"><img class="logo"
+                        src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-2-512.png">Instagram</a>
+            </div>
+
+            <button type="button" class=" col-2 btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Create a new post
+            </button>
+            <ul class=" navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end">
+                <li class="nav-item dropdown btn btn-secondary col-1">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false"><img class="logo2"
+                            src="https://i.pinimg.com/originals/db/5a/76/db5a76da8d26b1da17483f7862f4e046.jpg">
+                    </a>
+                    <ul class="dropdown-menu class=" d-flex justify-content-end">
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                        <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            </div>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+        <div class="row ">
+            <div class="layout mx-auto col-sm-1">
+                <div class=" nav nav-pills mb-3" id="pills-tab" role="tablist">
+
+                    <div class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">gallery</button>
+                    </div>
+                    <div class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">Profile</button>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                    tabindex="0">
+                    <div class="row p-1 g-1">
+                        <div class="col-4"><img
+                                src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?size=626&ext=jpg"></img>
+                        </div>
+                        <div class="col-4"><img
+                                src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?cs=srgb&dl=pexels-souvenirpixels-417074.jpg&fm=jpg"></img>
+                        </div>
+                        <div class="col-4"><img
+                                src="https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.jpg?s=612x612&w=0&k=20&c=i4HYO7xhao7CkGy7Zc_8XSNX_iqG0vAwNsrH1ERmw2Q="></img>
+                        </div>
+                    </div>
+                    <div class="row p-1 g-1">
+                        <div class="col-4"><img
+                                src="https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2018/10/bluebells,_oxfordshire.jpg?fit=1500%2C1000&ssl=1"></img>
+                        </div>
+                        <div class="col-4"><img
+                                src="https://images.newscientist.com/wp-content/uploads/2023/02/07104439/SEI_142739270.jpg"></img>
+                        </div>
+                        <div class="col-4"><img
+                                src="https://plus.unsplash.com/premium_photo-1673643405538-de0f82933fcb?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%3D%3D"></img>
+                        </div>
+                    </div>
+                    <div class="row p-1 g-1">
+                        <div class="col-4"><img
+                                src="https://i.guim.co.uk/img/media/e4565fc304532b7f86d0d2cf8af9b01819de8fc9/0_0_5464_3278/master/5464.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=384bfc5412c4efbc23a05fc74f73dfe1"></img>
+                        </div>
+                        <div class="col-4"><img src="https://static.toiimg.com/img/91227987/Master.jpg"></img></div>
+                        <div class="col-4"><img src="https://images3.alphacoders.com/241/241237.jpg"></img></div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="row d-flex justify-content-center"">
+                        <div class="card" style="width: 35rem;">
+                            <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?size=626&ext=jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+
+                 
+
+
+
+
+
+                        
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-4"><img
+                            src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?cs=srgb&dl=pexels-souvenirpixels-417074.jpg&fm=jpg"></img></div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-4"><img
+                            src="https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.jpg?s=612x612&w=0&k=20&c=i4HYO7xhao7CkGy7Zc_8XSNX_iqG0vAwNsrH1ERmw2Q="></img></div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-4"><img
+                            src="https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2018/10/bluebells,_oxfordshire.jpg?fit=1500%2C1000&ssl=1"></img></div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-4"><img
+                            src="https://images.newscientist.com/wp-content/uploads/2023/02/07104439/SEI_142739270.jpg"></img></div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-4"><img
+                            src="https://plus.unsplash.com/premium_photo-1673643405538-de0f82933fcb?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmF0dXJhbHxlbnwwfHwwfHx8MA%3D%3D"></img></div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-4"><img
+                            src="https://i.guim.co.uk/img/media/e4565fc304532b7f86d0d2cf8af9b01819de8fc9/0_0_5464_3278/master/5464.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=384bfc5412c4efbc23a05fc74f73dfe1"></img></div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-4"><img src="https://static.toiimg.com/img/91227987/Master.jpg"></img></div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-4"><img src="https://images3.alphacoders.com/241/241237.jpg"></img></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

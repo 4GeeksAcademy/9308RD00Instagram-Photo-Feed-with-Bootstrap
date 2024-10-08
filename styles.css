@@ -1,0 +1,20 @@
+img{
+    max-width: 100%;
+}
+.logo{
+    max-width: 8%;
+}
+
+.logo2{
+    max-width: 100%;
+}
+
+.navbar-nav {
+    color: white;
+}
+.layout{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    
+}
